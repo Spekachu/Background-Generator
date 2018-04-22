@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html, body, * {
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+}
+body {
+    font-size: 1em;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #f45941, #4286f4);
+}
+.container {
+    padding: 2em 5%;
+    background-color: rgba(255, 255, 255, 0.514);
+    margin: auto;
+    margin-top: 2em;
+    max-width: 45em;
+    width: 92%;
+    box-shadow: 0 .5em 1em rgba(0,0,0, .2);
+    border-radius: 1em;
+}
